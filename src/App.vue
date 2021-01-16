@@ -29,11 +29,12 @@ body {
     border-color: rgba($color: #000000, $alpha: 0.1);
   }
   .global-wrapper {
-    width: 98%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 240px auto;
+    column-gap: 40px;
+    max-width: 1376px;
     margin: 0px auto;
-    border: 1px solid;
-    border-color: rgba($color: #000000, $alpha: 0.1);
-    margin-top: 20px;
   }
 }
 </style>

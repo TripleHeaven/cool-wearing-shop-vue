@@ -3,7 +3,7 @@
     <div class="catalog-header">Products Catalog</div>
     <div class="catalog-items-container">
       <CatalogItem
-        v-for="catalogItem in PRODUCTS"
+        v-for="catalogItem in TO_SHOW"
         :key="catalogItem.id"
         :catalogItem="catalogItem"
         @addToCart="addToCart"
@@ -29,7 +29,7 @@ export default {
     },
   },
   computed: {
-    ...mapGetters(["PRODUCTS"]),
+    ...mapGetters(["PRODUCTS", "TO_SHOW"]),
   },
   mounted() {
     this.GET_PRODUCTS_BASE_STATE();

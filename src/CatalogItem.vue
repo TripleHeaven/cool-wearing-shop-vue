@@ -42,14 +42,15 @@ export default {
   justify-content: flex-start;
   margin-left: auto;
   margin-right: auto;
+  transition: all 0.5s;
   .catalog-item-title {
     font-family: "Anton", sans-serif;
     font-size: 20px;
     margin: 0;
-    padding: 10px;
+    padding: 1px;
   }
   img {
-    width: 350px;
+    width: 200px;
   }
   button {
     display: inline-block;
@@ -75,9 +76,8 @@ export default {
     }
   }
   &:hover {
-    border: solid 1px;
-    margin: -1px;
-    border-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
   }
 }
 </style>
