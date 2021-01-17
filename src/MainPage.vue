@@ -2,15 +2,13 @@
   <div class="inner-wrapper">
     <FilterProducts></FilterProducts>
     <Catalog></Catalog>
-    <!-- <ShopCart v-if="CART.length" :cartData="CART"></ShopCart> -->
   </div>
 </template>
 
 <script>
 import Catalog from "./Catalog.vue";
-// import store from "./vuex/store";
-// import ShopCart from "./ShopCart.vue";
 import FilterProducts from "./FilterProducts.vue";
+
 import { mapGetters } from "vuex";
 
 export default {
@@ -18,7 +16,6 @@ export default {
   components: {
     FilterProducts,
     Catalog,
-    // ShopCart,
   },
   methods: {},
   computed: {

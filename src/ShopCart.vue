@@ -1,18 +1,20 @@
 <template>
   <div>
     <ShopCartItem
-      v-for="cartItem in cartData"
+      v-for="cartItem in CART"
       :key="cartItem.id"
       :cartItem="cartItem"
       @deleteFromCart="deleteFromCart"
+      class="cartcontainer"
     />
   </div>
 </template>
 
 <script>
-// import store from "./vuex/store";
+//  import store from "./vuex/store";
+
 import ShopCartItem from "./ShopCartItem";
-import { mapActions } from "vuex";
+import { mapActions, mapGetters } from "vuex";
 export default {
   name: "ShopCart",
   components: { ShopCartItem },
@@ -20,15 +22,16 @@ export default {
   data() {
     return {};
   },
-  computed: {},
+  computed: {
+    ...mapGetters(["CART"]),
+  },
   methods: {
     ...mapActions(["DELETE_FROM_CART"]),
     deleteFromCart(id) {
-      console.log("dick");
       this.DELETE_FROM_CART(id);
     },
   },
 };
 </script>
 
-<style></style>
+<style lang="scss"></style>

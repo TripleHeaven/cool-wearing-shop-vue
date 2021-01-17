@@ -48,6 +48,13 @@ let store = new Vuex.Store({
   {id : 10 , title : 'If you are reading this you are', price : 27000, type: "boot"},
   {id : 11 , title : 'Wrong in your life boy wtfd', price : 4300, type: "boot"},
   {id : 12 , title : 'Stop Please Do Something', price : 52500, type: "boot"},
+  {id : 13 , title : 'Crocs Just Black Crocs', price : 52500, type: "boot"},
+  {id : 14 , title : 'Just cool old shoes all black', price : 52500, type: "boot"},
+  {id : 15 , title : 'Cool sneakers in all black Chevrolet', price : 52500, type: "boot"},
+  {id : 16 , title : 'Just cool old shoes all white black', price : 52500, type: "boot"},
+  {id : 17 , title : 'Sneaker not Adidas not Nike', price : 52500, type: "sneaker"},
+  {id : 18 , title : 'Just another black sneaker', price : 52500, type: "sneaker"},
+  {id : 19 , title : 'Nike airmax 98354 all black', price : 52500, type: "sneaker"},
 ]);
   return this.products;
     },

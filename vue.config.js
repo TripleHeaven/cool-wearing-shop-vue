@@ -1,0 +1,1 @@
+module.exports = { publicPath: "/cool-wearing-shop-vue/"}

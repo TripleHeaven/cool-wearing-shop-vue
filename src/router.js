@@ -11,6 +11,7 @@ import MainPage from "./MainPage.vue";
 
 export default new Router ({
   mode: 'history',
+  base : '/cool-wearing-shop-vue/',
   routes : [
     {
     path: '/',
