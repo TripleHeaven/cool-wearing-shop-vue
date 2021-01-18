@@ -9,23 +9,16 @@
 [Link on working site for example](https://tripleheaven.github.io/cool-wearing-shop-vue/ "tip")
 
 ### Programm functions
-   -Add to cart 
-   -Open cart in a modal window
-   -Delete from cart
-   -Filter by: all, boots, sneakers
+   - Add to cart 
+   - Open cart in a modal window
+   - Delete from cart
+   - Filter by: all, boots, sneakers
 
-### Возмжности
-1 страница
+### Programm functions
+Main functions
    - Добавление контакта
    - Удаление контакта (с подтверждением)
    - Переход на контактную информацию контакта
-2 страница
-   - Динамичный роут
-   - Добавление полей в виде - "название : значение" (прим. E-mail:test@test.com)
-   - Удаление полей (с подтверждением)
-   - Редактирование полей с возможностью отмены (отмена с подтвердением)
-   - Отмена последнего внесенного изменения "Шаг назад"
-
 ## Project setup
 ```
 npm install
