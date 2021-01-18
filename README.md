@@ -14,11 +14,6 @@
    - Delete from cart
    - Filter by: all, boots, sneakers
 
-### Programm functions
-Main functions
-   - Добавление контакта
-   - Удаление контакта (с подтверждением)
-   - Переход на контактную информацию контакта
 ## Project setup
 ```
 npm install
