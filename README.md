@@ -2,11 +2,11 @@
 
 ## Appearence 
 
-![](mainpage.png ,"Main Page")
+![](mainpage.png "Main Page")
 
-![](cart.png, "Cart Modal Window")
+![](cart.png "Cart Modal Window")
 
-[Link on working site for example](http://example.com/ "Необязательная подсказка")
+[Link on working site for example](https://tripleheaven.github.io/cool-wearing-shop-vue/ "tip")
 
 ## Programm functions
 
