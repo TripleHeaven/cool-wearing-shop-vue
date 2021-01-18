@@ -8,7 +8,7 @@
 
 [Link on working site for example](https://tripleheaven.github.io/cool-wearing-shop-vue/ "tip")
 
-Programm functions
+###Programm functions
    -Add to cart 
    -Open cart in a modal window
    -Delete from cart
